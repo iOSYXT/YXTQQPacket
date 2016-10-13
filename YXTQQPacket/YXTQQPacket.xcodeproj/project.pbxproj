@@ -13,6 +13,7 @@
 		DB527BCF1DAFDBE40091E4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB527BCD1DAFDBE40091E4AD /* LaunchScreen.storyboard */; };
 		DB527BDA1DAFDBE40091E4AD /* YXTQQPacketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527BD91DAFDBE40091E4AD /* YXTQQPacketTests.m */; };
 		DB527BE51DAFDBE40091E4AD /* YXTQQPacketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527BE41DAFDBE40091E4AD /* YXTQQPacketUITests.m */; };
+		DB527BF51DAFDCA20091E4AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527BF41DAFDCA20091E4AD /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		DB527BE01DAFDBE40091E4AD /* YXTQQPacketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXTQQPacketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB527BE41DAFDBE40091E4AD /* YXTQQPacketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTQQPacketUITests.m; sourceTree = "<group>"; };
 		DB527BE61DAFDBE40091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB527BF31DAFDCA20091E4AD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB527BF41DAFDCA20091E4AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 			children = (
 				DB527BC21DAFDBE40091E4AD /* AppDelegate.h */,
 				DB527BC31DAFDBE40091E4AD /* AppDelegate.m */,
+				DB527BF21DAFDCA20091E4AD /* Classes */,
 				DB527BCB1DAFDBE40091E4AD /* Assets.xcassets */,
 				DB527BCD1DAFDBE40091E4AD /* LaunchScreen.storyboard */,
 				DB527BD01DAFDBE40091E4AD /* Info.plist */,
@@ -130,6 +134,15 @@
 				DB527BE61DAFDBE40091E4AD /* Info.plist */,
 			);
 			path = YXTQQPacketUITests;
+			sourceTree = "<group>";
+		};
+		DB527BF21DAFDCA20091E4AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB527BF31DAFDCA20091E4AD /* ViewController.h */,
+				DB527BF41DAFDCA20091E4AD /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB527BF51DAFDCA20091E4AD /* ViewController.m in Sources */,
 				DB527BC41DAFDBE40091E4AD /* AppDelegate.m in Sources */,
 				DB527BC11DAFDBE40091E4AD /* main.m in Sources */,
 			);
